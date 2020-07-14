@@ -101,7 +101,7 @@ while(true)
 }
 print '<form action="t_disp.php" method="post">';
 print '<input type="radio" name="sort" value="code_s"'. (array_key_exists('sort', $_POST) && $_POST['sort'] == 'code_s' ? 'checked="checked"' : '') . '>追加順';
-print '<input type="radio" name="sort" value="name_s"'. (array_key_exists('sort', $_POST) && $_POST['sort'] == 'name_s' ? 'checked="checked"' : '') .' >担当者順';
+print '<input type="radio" name="sort" value="name_s"'. (array_key_exists('sort', $_POST) && $_POST['sort'] == 'name_s' ? 'checked="checked"' : '') .' >担当者';
 print '<input type="radio" name="sort" value="status_s"'. (array_key_exists('sort', $_POST) && $_POST['sort'] == 'status_s' ? 'checked="checked"' : '') .' >ステータス順';
 print '<input type="radio" name="sort" value="deadline_s"'. (array_key_exists('sort', $_POST) && $_POST['sort'] == 'deadline_s' ? 'checked="checked"' : '') .' >期限順';
 print '<input type="radio" name="sort" value="priority_s"'. (array_key_exists('sort', $_POST) && $_POST['sort'] == 'priority_s' ? 'checked="checked"' : '') .' >優先度順 ';
